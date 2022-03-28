@@ -1,0 +1,287 @@
+@import url(main.css);
+@import url(fonts.css);
+/* Header */
+header {
+  background-color: #d8dce4;
+
+}
+/* Fim */
+/*  */
+
+#ul-header a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+ 
+}
+
+/*  */
+/* Div cabecalho */
+.div-cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  margin-left: 1.4vh;
+}
+/* Fim */
+
+/* Imagem Header */
+#container header .image {
+  width: 9.5vw;
+  position: relative;
+  margin-right: 19vw;
+  margin-left: -0.73vw;
+}
+/* fim */
+#img-cabecalho {
+  width: 8.2vw;
+  margin-top: 4vh;
+  margin-left: -0.8vh;
+}
+
+/* Nav ul do header */
+#ul-header {
+  width: 38vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1.2vh;
+  list-style: none;
+  font-weight: 550;
+  margin-left: 1vh;
+}
+/* Fim */
+/* Para estudantes : borda para opção de navegação */
+#para-estudantes {
+  border-radius: 4px;
+  background-color: #10344c;
+  color: #ffffff;
+  padding: 14px 18px;
+  
+}
+/* Fim */
+/* Letras navegação nav */
+.nav-navegacao {
+  color: #947611;
+}
+/* Foto-keeper */
+#photo-keeper {
+  background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLW9r4nbrlXR7tvJQm-rhDbcdRXbeFYwsv26zOcGx_YCi67HQPg-9i6mbdRmmuh2H7hiGXcy8roxBAUU_A86PjrJwitAevjTwa9PantZJa6tBcKi7v3vZUCkB3R4ayXzThSDKmoI09my6P0Gbj9C-8Df=w1273-h627-no?authuser=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+
+}
+/* Fim */
+/* Container subHead */
+#container-sub-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 4vw;
+  width: 90%;
+  left: -30px;
+  position: relative;
+}
+/* Fim */
+/* TITULO h1 pagina */
+#titulo-sub-head {
+  color: #3f4246;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 46vw;
+  margin-top: 60px;
+  text-align: center;
+  word-spacing: -0.5vw;
+}
+/* Fim */
+/* Imagem sub head  LIVROS*/
+#img-livros {
+  width: 42.5vw;
+  position: relative;
+
+  left: -0.7vw;
+}
+/* Fim */
+/* divheader1 */
+
+/* Paragrafo-sub-head */
+#paragrafo-sub-head{
+    width: 35.9vw;
+    font-size: 20px;
+    margin: 2rem auto;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    word-spacing: 0.4vw;
+    color: #3f5166;
+    font-family: 'Inter', sans-serif;
+     
+
+}
+/* Fim */
+/* botões acesso google play e appstore */
+#imagheader{
+    left: 0vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/* Fim */
+/* button customização */
+#btn-veja{
+    border-radius:6px;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 8vw;
+    padding: 15px;
+    color:#006296;
+    border: #006296 solid 2px;
+    font-weight: bold;
+}
+/* Fim */
+/* Botão div  posicionar */
+#div-button{
+    position: relative;
+    left: 35vw;
+    top: 30vh;
+}
+/* Fim */
+/* quem somos - inicio */
+#div-parte2{
+    margin-top: 50vh;
+    display:flex;
+}
+/* titulo quem somos */
+#titulo-quem-somos{
+    color: #475c75;
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    margin-left: 5vw;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/* Fim */
+/* paragrafo quem somos */
+#paragrafo-quem-somos{
+    color: #6f8eb3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 35vw;
+    position: relative;
+}
+/* Fim */
+ /* assinatura da mensagem quem somos */
+#equipe-text{
+    color:#475c75;
+
+    font-weight: bold;
+}
+/* fIM */
+
+/* segunda imagem telefone */
+
+#segunda-img-telefone img{
+    position: relative;
+    left: 44vw; 
+    top: -65vh;
+    max-width: 710px;
+    max-height: 770px;
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+}
+/* Fim */
+
+/* terceira parte */
+#part-3{
+    position: relative;
+    top: 100vh;
+    left: -45vw;
+    height:520px;
+    border: 2px solid red;
+}
+.div-elementos{
+    border: 2px solid black;
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+.texto{
+    width: 300px;
+}
+.div-elementos .texto p{
+    color: #6f8eb3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 300;
+}
+
+/* fim */
+/* Footer */
+
+
+footer{
+    position: relative;
+    top:100%;
+    width: 100%;
+    height: 59vh;
+    border: 2px solid black;
+    color: white;
+    background-color: #405464;
+}
+
+footer a{
+    color: white;
+
+}
+#logo-footer{
+    width: 200px;
+}
+.itens-estudante{
+    margin: 14px;
+
+    
+    
+}
+ul{
+    font-size: 17px;
+    font-weight:500;
+    margin: 20px;
+      
+}
+.sub-nav{
+    font-family: 'Inter', sans-serif;  
+    font-size: 18px;
+    left: 3vw;
+    position: relative;
+    font-weight: 800;
+}
+
+footer li{
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#footer-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vh;
+    width: 95vw;
+}
+#footer-div-logo{
+    margin-top: 5.5%;
+}
+#perg-fre{
+    margin: auto 0px auto 0px;
+}
+
